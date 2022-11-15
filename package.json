@@ -1,0 +1,37 @@
+{
+  "name": "typescript-simple-unit-test-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require ts-node/register --watch-extensions ts 'test/**/*.spec.ts'",
+    "test:watch": "yarn test -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismetkizgin/typescript-simple-unit-test-example.git"
+  },
+  "author": "ismet kizgin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismetkizgin/typescript-simple-unit-test-example/issues"
+  },
+  "homepage": "https://github.com/ismetkizgin/typescript-simple-unit-test-example#readme",
+  "devDependencies": {
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^14.14.14",
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.6",
+    "sinon": "^14.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "mysql": "^2.18.1"
+  }
+}
